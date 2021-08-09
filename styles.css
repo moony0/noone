@@ -1,3 +1,66 @@
-h1{
-font-family: "Lora", serif;
+*{
+  font-family: "Lora", serif;
+  color: #093247;
+}
+h2{
+  font-size: 20pt;
+  font-family: "Playfair Display"
+}
+li{
+  font-size: 13pt;
+  font-family: "Lora";
+  margin-bottom: 10px;
+}
+td{
+    font-size: 13pt;
+  }
+.header{
+  text-align: center;
+  overflow: auto;
+  margin: auto;
+  padding: 20px;
+  border-bottom: 1px solid #515E63
+}
+  .header-name{
+    font-family: "Playfair Display", serif;
+    font-size: 30pt;
+  }
+.header-desc{
+  font-size: 13pt;
+}
+  /*
+  Main: #083b54
+  Secondary: #515E63
+  Tertiary:  #F1ECC3
+  Background: #fff
+Website w/ the colors: https://colorhunt.co/palette/f1ecc3c9d8b657837b515e63
+Fonts:
+Headers: Playfair display
+Body Text: Lora
+*/
+.header-img{
+  border-radius: 100%;
+  width: 20%;
+  float: left
+}
+.the-divide{
+  width: 75%;
+  margin: auto;
+}
+.smaller-div{
+  width: 40%;
+  float: left;
+  padding: 30px;
+  line-height: 30px;
+}
+@media print {
+  .smaller-div{
+    float: none !important;
+    width: auto !important;
+    margin: none !important;
+    padding: none !important;
+  }
+}
+.stars{
+  color: #c1830c
 }
